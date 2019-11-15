@@ -1832,6 +1832,7 @@ a:hover, a:focus, a:active {
 
 .probootstrap-gallery figure figcaption {
   display: none;
+    color: red;
 }
 
 .probootstrap-gallery img {

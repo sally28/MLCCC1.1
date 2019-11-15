@@ -213,3 +213,7 @@ a{
 .fullwidth {
     height: 400px;
 }
+
+.pswp__caption__cente{
+    color: red !important;
+}
