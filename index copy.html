@@ -73,7 +73,7 @@
                 <ul class="dropdown-menu">
                   <li><a href="program.html">Weekend School</a></li>
                   <li><a href="camps.html">Summer Camps </a></li>
-                  <li><a href="special.html">Special Program</a></li>
+                  <li><a href="specialProgram.html">Special Program</a></li>
                 </ul>     
               </li>
               <li class="dropdown">
@@ -82,8 +82,8 @@
                   <li><a href="press.html">Press</a></li>
                 </ul>     
               </li>      
-               <li><a href="photo.html">Gallary</a></li> 
-               <li><a href="#">Registration</a></li>  
+               <li><a href="gallery.html">Gallary</a></li>
+               <li><a href="https://mlcccadmin.herokuapp.com/#/registration" target="_blank">Registration</a></li>
               <li class="dropdown">
               <a href="history.html" class="dropdown-toggle">About Us</a>
               <ul class="dropdown-menu">
@@ -93,13 +93,8 @@
               </ul>      
               </li> 
               <li><a href="contact.html">Contact</a></li>
-              <li class="dropdown">
-                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Log In</a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Parents </a></li>
-                  <li><a href="#">Teachers </a></li>
-                  <li><a href="#">Administrator</a></li>
-                </ul>     
+              <li>
+                 <a href="https://mlcccadmin.herokuapp.com" target="_blank" >Login</a>
               </li> 
             </ul>
           </div>
@@ -343,9 +338,99 @@
         </div>
       </section>
 
+           <section class="probootstrap-section probootstrap-bg probootstrap-section-colored probootstrap-testimonial" >
+             <div class="container">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
+                  <h2>School Calendar</h2>
+                </div>
+              </div>
+          <!-- END row -->
+          <div class="row">
+            <div class="col-md-12 probootstrap-animate">
+              <div  class="fullwidth">
+             
+                     <div class="calendar">
 
+            <div class="col leftCol">
+                <div class="content">
+                    <h1 class="date">Sunday<span>November 3rd</span></h1>
+                    <div class="notes">
+                       
+                        <ul class="noteList">
+                            <li>Daylight Saving Time Ends This Sunday.</li>
+                            <li>MLCCC Spotlight Episode #20191027 Released! </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-      <section class="probootstrap-section">
+            <div class="col rightCol">
+                <div class="content">
+                    <h2 class="year">2019</h2>
+                    <ul class="months">
+                        <li><a href="#" title="Jan" data-value="1">Jan</a></li>
+                        <li><a href="#" title="Feb" data-value="2">Feb</a></li>
+                        <li><a href="#" title="Mar" data-value="3">Mar</a></li>
+                        <li><a href="#" title="Apr" data-value="4">Apr</a></li>
+                        <li><a href="#" title="May" data-value="5">May</a></li>
+                        <li><a href="#" title="Jun" data-value="6">Jun</a></li>
+                        <li><a href="#" title="Jul" data-value="7">Jul</a></li>
+                        <li><a href="#" title="Aug" data-value="8">Aug</a></li>
+                        <li><a href="#" title="Sep" data-value="9" >Sep</a></li>
+                        <li><a href="#" title="Oct" data-value="10">Oct</a></li>
+                        <li><a href="#" title="Nov" data-value="11" class="selected">Nov</a></li>
+                        <li><a href="#" title="Dec" data-value="12">Dec</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                    <ul class="weekday">
+                        <li><a href="#" title="Mon" data-value="1">Mon</a></li>
+                        <li><a href="#" title="Tue" data-value="2">Tue</a></li>
+                        <li><a href="#" title="Wed" data-value="3">Wed</a></li>
+                        <li><a href="#" title="Thu" data-value="4">Thu</a></li>
+                        <li><a href="#" title="Fri" data-value="5">Fri</a></li>
+                        <li><a href="#" title="Say" data-value="6">Sat</a></li>
+                        <li><a href="#" title="Sun" data-value="7">Sun</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                    <ul class="days">
+                        <script>
+                            for( var _i = 1; _i <= 31; _i += 1 ){
+                                var _addClass = '';
+                                if( _i === 3 ){ _addClass = ' class="selected"'; }
+                                
+                                switch( _i ){
+                                    case 8:
+                                    case 10:
+                                    case 27:
+                                        _addClass = ' class="event"';
+                                    break;
+                                }
+
+                                document.write( '<li><a href="#" title="'+_i+'" data-value="'+_i+'"'+_addClass+'>'+_i+'</a></li>' );
+                            }
+                        </script>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+        </div>
+                   
+                </div><!-- end fullwidth-->
+                
+                </div>
+
+              </div>
+            </div>
+          
+          <!-- END row -->
+            
+      </section>
+
+ <section class="probootstrap-section">
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
@@ -432,100 +517,8 @@
 
         </div>
       </section>
-     
-        
-           <section class="probootstrap-section probootstrap-bg probootstrap-section-colored probootstrap-testimonial" >
-             <div class="container">
-              <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
-                  <h2>School Calendar</h2>
-                </div>
-              </div>
-          <!-- END row -->
-          <div class="row">
-            <div class="col-md-12 probootstrap-animate">
-              <div class="fullwidth">
-             
-                     <div class="calendar">
 
-            <div class="col leftCol">
-                <div class="content">
-                    <h1 class="date">Sunday<span>November 3rd</span></h1>
-                    <div class="notes">
-                       
-                        <ul class="noteList">
-                            <li>Daylight Saving Time Ends This Sunday.</li>
-                            <li>MLCCC Spotlight Episode #20191027 Released! </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col rightCol">
-                <div class="content">
-                    <h2 class="year">2019</h2>
-                    <ul class="months">
-                        <li><a href="#" title="Jan" data-value="1">Jan</a></li>
-                        <li><a href="#" title="Feb" data-value="2">Feb</a></li>
-                        <li><a href="#" title="Mar" data-value="3">Mar</a></li>
-                        <li><a href="#" title="Apr" data-value="4">Apr</a></li>
-                        <li><a href="#" title="May" data-value="5">May</a></li>
-                        <li><a href="#" title="Jun" data-value="6">Jun</a></li>
-                        <li><a href="#" title="Jul" data-value="7">Jul</a></li>
-                        <li><a href="#" title="Aug" data-value="8">Aug</a></li>
-                        <li><a href="#" title="Sep" data-value="9" >Sep</a></li>
-                        <li><a href="#" title="Oct" data-value="10">Oct</a></li>
-                        <li><a href="#" title="Nov" data-value="11" class="selected">Nov</a></li>
-                        <li><a href="#" title="Dec" data-value="12">Dec</a></li>
-                    </ul>
-                    <div class="clearfix"></div>
-                    <ul class="weekday">
-                        <li><a href="#" title="Mon" data-value="1">Mon</a></li>
-                        <li><a href="#" title="Tue" data-value="2">Tue</a></li>
-                        <li><a href="#" title="Wed" data-value="3">Wed</a></li>
-                        <li><a href="#" title="Thu" data-value="4">Thu</a></li>
-                        <li><a href="#" title="Fri" data-value="5">Fri</a></li>
-                        <li><a href="#" title="Say" data-value="6">Sat</a></li>
-                        <li><a href="#" title="Sun" data-value="7">Sun</a></li>
-                    </ul>
-                    <div class="clearfix"></div>
-                    <ul class="days">
-                        <script>
-                            for( var _i = 1; _i <= 31; _i += 1 ){
-                                var _addClass = '';
-                                if( _i === 3 ){ _addClass = ' class="selected"'; }
-                                
-                                switch( _i ){
-                                    case 8:
-                                    case 10:
-                                    case 27:
-                                        _addClass = ' class="event"';
-                                    break;
-                                }
-
-                                document.write( '<li><a href="#" title="'+_i+'" data-value="'+_i+'"'+_addClass+'>'+_i+'</a></li>' );
-                            }
-                        </script>
-                    </ul>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-
-            <div class="clearfix"></div>
-
-        </div>
-                   
-               </div>
-                
-                </div>
-
-              </div>
-            </div>
-          
-          <!-- END row -->
-            
-      </section>
-      
  </div><!--end page wraper-->
       <footer  class="probootstrap-footer probootstrap-bg">     
         <div class="probootstrap-copyright">
@@ -541,7 +534,7 @@
           </div>
         </div>       
       </footer>
-      
+
     <script src="js/scripts.min.js"></script>
     <script src="js/main.min.js"></script>
     <script src="js/custom.js"></script>

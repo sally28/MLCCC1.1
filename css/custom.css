@@ -213,6 +213,11 @@ a{
 .fullwidth {
     height: 400px;
 }
+@media screen and(max-width:768px){
+    .fullwidth{
+    width:400px;
+    }
+}
 
 .pswp__caption__cente{
     color: red !important;

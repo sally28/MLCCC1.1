@@ -68,7 +68,7 @@ a:hover, a:focus, a:active {
   text-decoration: none;
 }
 
-.hero-text-heading, .probootstrap-hero h1, .flexslider .probootstrap-heading {
+.hero-text-heading, .probootstrap-hero h2, .flexslider .probootstrap-heading {
   font-size: 52px;
   font-weight: 300;
   margin-bottom: 10px;
@@ -79,14 +79,14 @@ a:hover, a:focus, a:active {
 }
 
 @media screen and (max-width: 768px) {
-  .hero-text-heading, .probootstrap-hero h1, .flexslider .probootstrap-heading {
+  .hero-text-heading, .probootstrap-hero h2, .flexslider .probootstrap-heading {
     font-size: 40px;
     line-height: 1.5;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .hero-text-heading, .probootstrap-hero h1, .flexslider .probootstrap-heading {
+  .hero-text-heading, .probootstrap-hero h2, .flexslider .probootstrap-heading {
     font-size: 30px;
   }
 }
@@ -983,7 +983,7 @@ a:hover, a:focus, a:active {
 }
 
 @media screen and (max-width: 768px) {
-  .probootstrap-section {
+  .probootstrap-section{
     padding: 3em 0;
   }
 }
